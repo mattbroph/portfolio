@@ -1,0 +1,470 @@
+/*
+    Matt Brophy
+    01/05/2024
+*/
+
+/* #2B2B40 header blue*/
+/* #454561 lighter blue */
+/* #F68D2E orange */
+
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Roboto Slab', serif; */
+
+body {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+#home, #skillsTables, #contactMe {
+    background-color: #EDEDED;
+}
+
+
+/* Header & Nav Styles */
+.navbar-nav .nav-link {
+    color: white !important;
+    margin-right: 2em;
+    font-size: 18px;
+}
+
+/* Ensure links appear on right under hamburger menu */
+.navbar-collapse {
+    text-align: right; /* Forces text alignment to the right */
+}
+
+
+/* new */
+
+header {
+    border-bottom: #FFFFFF .2em solid;
+}
+
+nav a.activePage {
+    text-decoration: underline;
+    text-decoration-color: #F68D2E;
+    text-underline-offset: .3em;
+    text-decoration-thickness: .12em;
+
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+.no-padding{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+
+/* Fonts */
+h1 {
+    font-weight: bold;
+    font-size: 48px;
+    letter-spacing: 4px;
+    color: #2B2B40;
+}
+
+h1 span {
+    font-size: 30px;
+    font-weight: 400;
+    color: #454561;
+}
+
+h2, th {
+    font-size: 34px;
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+
+#aboutMe h2 {
+    color: #FFFFFF;
+    font-weight: 400;
+    /* border-bottom: #F68D2E solid 2px;
+    max-width: 160px; */
+}
+
+#aboutMe p {
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Home */
+#home {
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+/* About Me */
+#aboutMe {
+    background-color: #2B2B40;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/* Buttons */
+.buttonContain {
+    display: flex;
+    text-align: center;
+}
+
+.buttonHome {
+    border: 2px solid #EDEDED;
+    background-color: #F68D2E;
+    color: #2B2B40;
+    padding: .75em;
+    font-weight: 600;
+    border-radius: .5em;
+    margin-top: 2em;
+    display: inline-block;
+    text-decoration: none;
+    flex: 1;
+    min-width: 15em;
+    max-width: 15em;
+}
+
+.buttonHome:hover {
+    border: 2px solid #172D44;
+    color: #2B2B40;
+    text-decoration: none;
+}
+
+.buttonProject {
+    border: 2px solid #172D44;
+    background-color: #F68D2E;
+    color: #2B2B40;
+    padding: .75em 3em;
+    font-weight: 600;
+    border-radius: .5em;
+    margin-top: 2em;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.buttonProject:hover {
+    border: 2px solid #FFFFFF;
+    text-decoration: none;
+    color: #2B2B40;
+}
+
+#purpleButton {
+    margin-left: 1em;
+    background-color: #454561;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+/* Tables */
+#skillsTables {
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+table {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    width: 40%;
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    text-align: left;
+    border-bottom: #F68D2E solid 2px;
+    margin-bottom: 2em;
+}
+
+.tableRowName {
+    padding-bottom: 2em;
+}
+
+.tableRowImage {
+    padding-top: 2em;
+}
+
+.line {
+    border-left: 2px solid #F68D2E;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/* Projects */
+#personalProjects {
+    background-color: #2B2B40;
+    padding: 5%;
+    color: #FFFFFF;
+}
+
+#projects {
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#projectOne, #projectTwo, #projectThree {
+    border: solid #FFFFFF 1px;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 2em;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#projects p {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    flex-grow: 1;
+    padding-top: 1em;
+}
+
+#personalProjects h2 {
+    font-weight: 400;
+    /* border-bottom: #F68D2E solid 2px; */
+    /* max-width: 192px; */
+    margin-left: 3%;
+}
+
+.projectImage {
+    width: 175px;
+    height: auto;
+    margin: 0 auto 1em;
+}
+
+/* Contact Me */
+#contactMeHeader {
+    color: #2B2B40;
+    font-weight: 400;
+    /* border-bottom: #F68D2E solid 2px; */
+    /* max-width: 240px; */
+    margin: 1em auto;
+}
+
+/* #contactMe h2 {
+    border-bottom: #F68D2E solid 2px;
+    max-width: 195px;
+} */
+
+.paragraphPad {
+    padding-top: 1em;
+}
+
+#contactMe {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    /* padding-top: 5%;
+    padding-bottom: 5%; */
+    padding-left: 2%;
+    padding-right: 2%;
+    align-items: center;
+}
+
+#contactMeLeft, #contactMeRight, #homeRight, #homeLeft, #aboutMeLeft {
+    flex: 1;
+    max-width: 40%;
+}
+
+#contactMeRight {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contactMeRight a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+#contactMeRight img {
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; 
+}
+
+#contactMeRight a:hover img {
+    box-shadow: 8px -8px #F68D2E;
+    border-radius: 1em;
+}
+
+#contactMeRight span {
+    padding-top: 1em;
+    font-weight: 600;
+    color: #454561;
+}
+
+/* Footer */
+footer {
+    background-color: #2B2B40;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 300;
+    padding-bottom: 1em;
+}
+
+footer a {
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+footer a img:hover {
+    border: solid 1px grey;
+}
+
+/* Fix sticky header link clicks */
+.scrollMargin {
+    scroll-margin-top: 4em;
+}
+
+.scrollMarginExtra {
+    scroll-margin-top: 6em;
+}
+
+/* Dynamic */
+@media screen and (max-width: 940px) {
+    #home, #aboutMe, #contactMe, #contactMeRight, .buttonContain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        padding-top: .5em;
+    }
+
+    #contactMeRight, #contactMeLeft, #homeLeft, #aboutMeLeft, #aboutMeRight {
+        max-width: 80%;
+    }
+
+    #contactMeRight img {
+        margin-top: 2em;
+    }
+
+    /* Adjust padding for home and aboutMe sections */
+    #home, #aboutMe, #skillsTables, #personalProjects, #contactMe {
+        padding: 10%;
+    }
+
+    #portfolioPic {
+        padding-top: 2em;
+    }
+
+    /* Adjust width for tables */
+    table {
+        width: 90%;
+    }
+
+    #skillsTables {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #professionalSkills {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #technicalSkills {
+        margin-bottom: 0;
+        margin-top: 1em;
+    }
+
+    /* Adjust margin for projects */
+    #projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #projectOne, #projectTwo, #projectThree {
+        margin: 1em;
+    }
+
+    form {
+        margin: 1% 5%;
+        padding: 2em 3em;
+    }
+
+    #purpleButton {
+        margin-left: 0em;
+    }
+
+}
+
+/* 
+* Code commented out below is for when the form is available
+*/
+
+/* form {
+    border-radius: .5em;
+    background-color: #2B2B40;
+    margin: 1% 30%;
+    color: #FFFFFF;
+    padding: 2em 3em;
+} */
+
+/* input[type="text"], input[type="email"] {
+    display: block;
+    width: 100%;
+    padding-bottom: 1em;
+    padding-top: .5em;
+    padding-left: .5em;
+    border-radius: .25em;
+    margin-top: .5em;
+} */
+
+/* textarea {
+    display: block;
+    width: 100%;
+    padding-bottom: 5em;
+    padding-top: .5em;
+    padding-left: .5em;
+    border-radius: .25em;
+    margin-top: .5em;
+} */
+
+/* #buttonContainer {
+    text-align: center;
+} */
+
+/* .buttonForm {
+    background-color: #F68D2E;
+    color: #2B2B40;
+    padding: .75em 3em;
+    font-weight: 600;
+    border-radius: .5em;
+    margin-top: 2em;
+    display: inline-block;
+    text-decoration: none;
+} */
+
+/* .buttonForm:hover {
+    border: #FFFFFF 2px solid;
+} */

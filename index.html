@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<!--
+    Author: Matt Brophy
+    Date: 01/04/2024
+-->
+<html lang="en">
+    <head>
+        <title>Matt Brophy Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <link rel="stylesheet" href="css/main.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Slab&display=swap" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Bootstrap Nav Bar -->
+        <header class="container-fluid no-padding sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-dark"
+                style="background-color: #2B2B40">
+
+                <a class="navbar-brand" href="#home">
+                    <img src="images/logo.png" 
+                         class="d-inline-block align-top" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a href="#home" class="nav-link activePage">Home</a>
+                        <a href="#aboutMe" class="nav-link">About Me</a>
+                        <a href="#skillsTables" class="nav-link">Skills</a>
+                        <a href="#personalProjects" class="nav-link">Projects</a>
+                        <a href="#contactMe" class="nav-link">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main id="mainContent">
+
+            <!-- Home -->
+            <article id="home" class="scrollMargin">
+                <div id="homeLeft">
+                    <h1><span>Hi, my name is</span><br>Matt Brophy</h1>
+                    <p class="paragraphPad">I'm a web developer who is passionate about creating engaging and dynamic websites.
+                        With a focus on user experience and automation, my goal is to create meaningful
+                        web solutions that increase productivity and leave users feeling satisfied.
+                    </p>
+                    <div class="buttonContain">
+                        <a href="#contactMe" class="buttonHome">Connect With Me</a>
+                        <a href="downloads/mbrophy_resume.pdf" target="_blank" class="buttonHome" id="purpleButton">Download Resume</a>
+                    </div>
+                </div>
+                <div id="homeRight">
+                    <!-- <img src="images/meTwo.jpg" alt="Matt Brophy"> -->
+                </div>
+            </article>
+
+            <!-- About Me -->
+            <article id="aboutMe" class="scrollMargin">
+                <div id="aboutMeLeft">
+                    <h2>About Me</h2>
+                    <p class="paragraphPad">I'm currently working full time at Nelnet, and am a half-time student at Madison Area Technical College.</p>
+                    <p>Outside of work and school, I enjoy spending my time outdoors. Whether it's hiking through
+                       scenic trails, or simply sitting around the campfire. My faithful companion Cas, our German
+                       Shepherd, loves exploring with us.</p>
+                    <p>I'm passionate about cooking great food with simple, fresh ingredients and making dishes from
+                       scratch. I've spent the last several years mastering the art of BBQ and am working on several charcuterie projects.</p>
+                </div>
+                <div id="aboutMeRight">
+                    <img src="images/myPhoto.jpg" alt="Matt Brophy" id="portfolioPic">
+                </div>
+            </article>
+            
+            <!-- Skills Tables -->
+            <section id="skillsTables" class="scrollMargin">
+
+                <!-- Technical skill table -->
+                <table id="technicalSkills">
+                    <tr>
+                        <th colspan="4">Technical Skills</th>
+                    </tr>
+                    <tr>
+                        <td><img src="images/java.svg" alt="Java" class="tableRowImage"></td>
+                        <td><img src="images/javascript-fill.svg" alt="JavaScript" class="tableRowImage"></td>
+                        <td><img src="images/sql-query.svg" alt="SQL" class="tableRowImage"></td>
+                        <td><img src="images/php-fill.svg" alt="PHP" class="tableRowImage"></td>
+                    </tr>
+                    <tr>
+                        <td class="tableRowName">Java</td>
+                        <td class="tableRowName">JavaScript</td>
+                        <td class="tableRowName">SQL</td>
+                        <td class="tableRowName">PHP</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/cloud.svg" alt="Cloud" ></td>
+                        <td><img src="images/html-fill.svg" alt="HTML"></td>
+                        <td><img src="images/css-fill.svg" alt="CSS"></td>
+                        <td><img src="images/atlassian.svg" alt="Atlassian"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td class="tableRowName">AWS</td>
+                        <td class="tableRowName">HTML</td>
+                        <td class="tableRowName">CSS</td>
+                        <td class="tableRowName">Atlassian</td>
+                    </tr>
+                </table>
+
+                <!-- Horizontal line between tables -->
+                <div class="line"></div>
+
+                <!-- Professional skills table -->
+                <table id="professionalSkills">
+                    <tr>
+                        <th colspan="3">Professional Skills</th>
+                    </tr>
+                    <tr>
+                        <td><img src="images/notepad-fill.svg" alt="notepad" class="tableRowImage"></td>
+                        <td><img src="images/people-team-20-filled.svg" alt="team" class="tableRowImage"></td>
+                        <td><img src="images/bubble.svg" alt="speach bubble" class="tableRowImage"></td>
+                    </tr>
+                    <tr>
+                        <td class="tableRowName">Project Management</td>
+                        <td class="tableRowName">Teamwork</td>
+                        <td class="tableRowName">Communication</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/person.svg" alt="person"></td>
+                        <td><img src="images/network-adapter-16-filled.svg" alt="adapter"></td>
+                        <td><img src="images/thinking-problem.svg" alt="person thinking"></td>
+                    </tr>
+                    <tr>
+                        <td class="tableRowName">Customer Focused</td>
+                        <td class="tableRowName">Adaptability</td>
+                        <td class="tableRowName">Problem Solving</td>
+                    </tr>
+                </table>
+            </section>
+            
+            <!-- Projects -->
+            <article id="personalProjects" class="scrollMargin">
+                <h2>My Projects</h2>
+
+                <div id="projects">
+
+                    <div id="projectOne">
+                        <img src="images/idea-alt.svg" alt="" class="projectImage">
+                        <h3>Charcuterie Calculator</h3>
+                        <p>This application displays a list a of charcuterie recipes that each include a picture,
+                            instructions and list of ingredients. Each recipe has a calculator function that lets the
+                            user enter the desired amount of product they would like to produce. The calculation determines
+                            the ingredient weights based on that volume.
+                        </p>
+                        <a href="https://github.com/mattbroph/Charcuterie_Calculator.git"
+                            target="_blank"
+                            class="buttonProject">View Project</a>
+                    </div>
+                    
+                    <div id="projectTwo">
+                        <img src="images/idea-alt.svg" alt="" class="projectImage">
+                        <h3>Lawn Service Manager</h3>
+                        <p>This application was built for a fictional lawn service manager, who needs to enter data and produce
+                            reports for invoicing. Data is entered via the command prompt. When all data is entered, various reports 
+                            are output to the terminal.
+                        </p>
+                        <a href="https://github.com/mattbroph/Lawn_Service_Management.git" 
+                            target="_blank"
+                            class="buttonProject">View Project</a>
+
+                    </div>
+                    <div id="projectThree">
+                        <img src="images/idea-alt.svg" alt="" class="projectImage">
+                        <h3>Coyote Campground</h3>
+                        <p>UI/UX design project for Coyote Campground. Design files were created in FIGMA
+                            and include, personas, user scenarios, full site mock-ups, mood board and more!
+                            Click the link below to view the FIGMA files via PDF.
+                        </p>
+                        <a href="downloads/coyote_campground.pdf"
+                            target="_blank"
+                            class="buttonProject">View Project</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Contact Me -->
+            <section id="contactMe" class="scrollMarginExtra">
+                <div id="contactMeLeft">
+                    <h2>Contact Me</h2>
+                    <p class="paragraphPad">If you'd like to get in touch, please don't hesitate to reach out via
+                        email at <a href="mailto:mattbroph@gmail.com">mattbroph@gmail.com</a>.
+                       Alternatively, you can click the icons on the right to email me directly, 
+                       visit my LinkedIn profile, or explore my GitHub portfolio.</p>
+                    <p>Thank you for visiting my portfolio, I look forward to connecting with you!</p>
+                </div>
+                <div id="contactMeRight">
+                    <a href="mailto:mattbroph@gmail.com" target="_blank"><img src="images/email-round.svg" alt="Envelope">
+                        <span>Email Me</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/matt-brophy-0ba480223" target="_blank"><img src="images/linkedin-round.svg" alt="LinkedIn">
+                        <span>Visit My LinkedIn</span>                    
+                    </a>
+                    <a href="https://github.com/mattbroph" target="_blank"><img src="images/github-round.svg" alt="Git Hub">
+                        <span>Visit My Github</span>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <a href="#top"><img src="images/arrow-up.svg" alt="Back to top" id="backToTop"><br/>Back to top</a>
+            <br><br>
+            <img src="images/logoFooter.png" alt="Matt Brophy Logo">
+            <br>
+            <span>Matt Brophy &#169; 2024</span>
+        </footer>
+        
+        <!-- JavaScript -->
+        <script src="js/index.js"></script>
+        <!-- BootStrap -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
